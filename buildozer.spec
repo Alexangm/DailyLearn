@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3, hostpython3, beautifulsoup4==4.12.2, bs4==0.0.1, certifi==2023.11.17, charset-normalizer==3.3.2, click==8.1.7, colorama==0.4.6, distlib==0.3.7, docutils==0.20.1, filelock==3.13.1, gTTS==2.4.0, idna==3.6, Kivy==2.2.1, kivy-deps.angle==0.3.3, kivy-deps.glew==0.3.1, kivy-deps.sdl2==0.6.0, Kivy-Garden==0.1.5, mysql-connector-python==8.2.0, pexpect==4.9.0, platformdirs==4.0.0, protobuf==4.21.12, ptyprocess==0.7.0, Pygments==2.17.2, pypiwin32==223, pywin32==306, requests==2.31.0, sh==2.0.6, soupsieve==2.5, urllib3==2.1.0
+requirements = python3, hostpython3, beautifulsoup4, bs4, certifi, charset-normalizer, click, colorama, distlib, docutils, filelock, gTTS, idna, Kivy, kivy-deps.angle, kivy-deps.glew, kivy-deps.sdl2, Kivy-Garden, mysql-connector-python, pexpect, platformdirs, protobuf, ptyprocess, Pygments, pypiwin32, pywin32, requests, sh, soupsieve, urllib3
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
