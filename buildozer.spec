@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3, hostpython3, beautifulsoup4, bs4, certifi, charset-normalizer, click, colorama, distlib, docutils, filelock, gTTS, idna, Kivy, kivy-deps.angle, kivy-deps.glew, kivy-deps.sdl2, Kivy-Garden, mysql-connector-python, pexpect, platformdirs, protobuf, ptyprocess, Pygments, pypiwin32, pywin32, requests, sh, soupsieve, urllib3
+requirements = python3, hostpython3==3.7.6, Kivy, beautifulsoup4, bs4, certifi, gTTS, mysql-connector-python, requests, soupsieve
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
@@ -62,7 +62,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.10
+osx.python_version = 3.7.6
 
 # Kivy version to use
 osx.kivy_version = 2.2.1
