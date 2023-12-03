@@ -1,0 +1,38 @@
+#:kivy 2.2.1
+#: import CButton custom_widgets
+
+Interface:
+    id: sm
+    canvas.before:
+        Color:
+            rgba: 0.3, 0.45, 0.7, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<DropdownMenu>:
+    auto_width: False
+    width: dp(300)
+    MButton: 
+        size_hint_y: None
+        height: dp(100)
+        text: 'Palavras'
+        on_press: root.changeTo('Home')
+                    
+    MButton: 
+        size_hint_y: None
+        height: dp(100)
+        text: 'Perfil'
+        on_press: root.changeTo('Perfil')
+                                 
+    MButton: 
+        size_hint_y: None
+        height: dp(100)
+        text: 'Quiz'
+        on_press: root.changeTo('Quiz')
+                    
+    MButton: 
+        size_hint_y: None
+        height: dp(100)
+        text: 'Sair'
+        on_press: root.changeTo('login')
