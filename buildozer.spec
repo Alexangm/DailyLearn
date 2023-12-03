@@ -36,8 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = numpy, python3, hostpython3, anyio, beautifulsoup4, bs4, CacheControl, cachetools, certifi, cffi, chardet, charset-normalizer, click, colorama, comtypes, cryptography, decorator, dill, dnspython, docutils, firebase-admin, futures, google-api-core, google-api-python-client, google-auth, google-auth-httplib2, google-cloud-core, google-cloud-firestore, google-cloud-storage, google-crc32c, google-resumable-media, googleapis-common-protos, googletrans, goslate, grpcio, grpcio-status, gTTS, h11, h2, hpack, hstspreload, httpcore, httplib2, httpx, hyperframe, idna, imageio, imageio-ffmpeg, Kivy, kivy-deps.angle, kivy-deps.glew, kivy-deps.sdl2, Kivy-Garden, libretranslatepy, lxml, moviepy, msgpack, multiprocess, mysql-connector-python, pathos, Pillow, pox, ppft, proglog, proto-plus, protobuf, psutil,  py-espeak-ng, pyasn1, pyasn1-modules, PyAudio, pycparser, PyDictionary, pydub, PyExecJS, Pygments, PyJWT, pymongo, pyparsing, pypiwin32, pyttsx3, pytube, pywin32, requests, rfc3986, rsa, six, sniffio, soupsieve, tqdm, tradutor, uritemplate, urllib3
-
+requirements = python3, hostpython3, beautifulsoup4==4.12.2, bs4==0.0.1, certifi==2023.11.17, charset-normalizer==3.3.2, click==8.1.7, colorama==0.4.6, distlib==0.3.7, docutils==0.20.1, filelock==3.13.1, gTTS==2.4.0, idna==3.6, Kivy==2.2.1, kivy-deps.angle==0.3.3, kivy-deps.glew==0.3.1, kivy-deps.sdl2==0.6.0, Kivy-Garden==0.1.5, mysql-connector-python==8.2.0, pexpect==4.9.0, platformdirs==4.0.0, protobuf==4.21.12, ptyprocess==0.7.0, Pygments==2.17.2, pypiwin32==223, pywin32==306, requests==2.31.0, sh==2.0.6, soupsieve==2.5, urllib3==2.1.0
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
